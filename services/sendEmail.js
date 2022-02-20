@@ -6,7 +6,7 @@ const {sendSMS}  = require('./twilioSMS.js')
 const {sendWSAP}  = require('./twilioWSAP.js')
 
 const gmailUser = 'martin.ariel.riveros@gmail.com'
-const gmailpass = 'wbfyjvnnqbyolkbw'
+const gmailpass =
 
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
